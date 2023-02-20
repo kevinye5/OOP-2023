@@ -23,12 +23,12 @@ public class Main
 	
 	public static void main(String[] args)
 	{
-		Cat ginger = new Cat();
-		ginger.setName("ginger");
+		Cat ginge = new Cat();
+		ginge.setName("ginge");
 
 		for(int i = 0; i <= 9; i++)
 		{
-			ginger.lives();
+			ginge.lives();
 		}
 
 		//loops();
