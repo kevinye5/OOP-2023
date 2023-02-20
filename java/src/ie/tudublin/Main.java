@@ -30,10 +30,15 @@ public class Main
 	public static void main(String[] args)
 	{
 		System.out.println("Hello world");
-		
-		Dog penny = new Dog();
-		penny.setName("Penny");
-		penny.speak();
+
+		Cat ginger = new Cat();
+		ginger.setName("Ginger");
+
+		for( int i = 0; i <= 9; i++)
+		{
+			ginger.lives();
+		}
+
 	}
 	
 }
