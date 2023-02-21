@@ -120,7 +120,7 @@ public class BugZap extends PApplet {
 		if (gameMode == 0)
 		{
 			fill(255);
-			
+			drawPlayer(playerX, playerY, playerWidth);
 			drawBug(bugX, bugY);
 			moveBug();
 
