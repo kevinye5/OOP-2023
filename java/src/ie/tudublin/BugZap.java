@@ -56,7 +56,7 @@ public class BugZap extends PApplet {
 
 	void drawPlayer(float x, float y, float w) {
 		stroke(255);
-		float playerHeight = w / 2;
+		float playerHeight = w / 4;
 		line(x - halfPlayerWidth, y + playerHeight, x + halfPlayerWidth, y + playerHeight);
 		line(x - halfPlayerWidth, y + playerHeight, x - halfPlayerWidth, y + playerHeight * 0.5f);
 		line(x + halfPlayerWidth, y + playerHeight, x + halfPlayerWidth, y + playerHeight * 0.5f);
@@ -121,7 +121,7 @@ public class BugZap extends PApplet {
 		{
 			fill(255);
 			drawPlayer(playerX, playerY, playerWidth);
-			drawBug(bugX, bugY);
+			
 			moveBug();
 
 			text("Score: " + score, 20, 20);
