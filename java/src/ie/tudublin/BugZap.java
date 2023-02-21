@@ -4,7 +4,7 @@ import processing.core.PApplet;
 
 public class BugZap extends PApplet {
 	public void settings() {
-		size(1000, 1000);
+		size(500, 500);
 	}
 
 	public void setup() {
@@ -120,7 +120,7 @@ public class BugZap extends PApplet {
 		if (gameMode == 0)
 		{
 			fill(255);
-			drawPlayer(playerX, playerY, playerWidth);
+			
 			drawBug(bugX, bugY);
 			moveBug();
 
