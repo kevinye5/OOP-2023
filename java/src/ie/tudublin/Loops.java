@@ -7,7 +7,7 @@ public class Loops extends PApplet {
 	int mode = 0;
 
 	public void settings() {
-		size(1000, 1000);
+		size(500, 500);
 		//fullScreen(SPAN);
 	}
 
@@ -30,7 +30,7 @@ public class Loops extends PApplet {
 
 		switch (mode) {
 			case 0:
-				int numCircles = (int) max(1, mouseX / 50.0f);
+				int numCircles = (int) max(5, mouseX / 50.0f);
 				float d = width / numCircles;
 				for (int j = 0; j < numCircles; j++) {
 					for (int i = 0; i < numCircles; i++) {
@@ -44,6 +44,7 @@ public class Loops extends PApplet {
 				off += (mouseY / 50.0f);
 				break;
 			case 1:
+				
 				break;
 			default:
 				break;
